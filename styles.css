@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+.grid{
+	display:grid;
+	grid-template-columns: repeat(4,1fr);
+}
+.cards{
+	border: 10px solid #ccc;
+	background-color:#fafafa;
+	height: 200px;
+	width:150px;
+	border-radius:10px;
+	background-image: url('https://media.istockphoto.com/id/1124838925/vector/programming-code-application-window.jpg?s=612x612&w=0&k=20&c=2J2JZP7cQltD03QkOMl6JYfzcmD-GN7bjrWVuieD7Jc=');
+	background-size: cover;
+	margin-left:10px;
+}
+.cards>h1{
+	color:white;
+	font-size:1.5em;
+}
+.cards>p{
+	color:white;
+	font-size:0.75em;
+}
